@@ -1,6 +1,6 @@
 package Java.Array;
 
-public class find_number_with_even_number_of_digits_1295 {
+public class _1295_Find_Number_With_Even_Number_Of_Digits {
 
     public static int findNumbers(int[] nums) {
         int total = 0;
