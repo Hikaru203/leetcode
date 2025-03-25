@@ -1,7 +1,8 @@
 package Java.Sort;
 
 public class BubbleSort {
-
+    // chạy 2 dòng for rồi check giá trị của n và n+1 nếu có giá trị n > n+1 thì
+    // swap 2 giá trị n và n+1
     public static void sort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             boolean isSorted = true;

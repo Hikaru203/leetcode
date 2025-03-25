@@ -1,6 +1,8 @@
 package Java.Sort;
 
 public class InsertionSort {
+    // chạy for và while để tìm giá trị nhỏ nhất của mảng rồi đổi giá trị đó lên
+    // trước
     public static void sort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n - 1; i++) {

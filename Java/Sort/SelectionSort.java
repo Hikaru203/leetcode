@@ -1,6 +1,8 @@
 package Java.Sort;
 
 public class SelectionSort {
+    // chạy for và tìm giá trị nhỏ nhất trong các giá trị còn lại rồi đổi giá trị đó
+    // lên trước
     public static void sort(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             int minIndex = i;
